@@ -6,3 +6,4 @@ Plugins in use:
 - treesitter
 - cyberdream
 - blink-cmp
+- telescope
