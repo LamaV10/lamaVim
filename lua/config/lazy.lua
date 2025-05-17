@@ -26,7 +26,7 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "plugins" },
-    { "folke/tokyonight.nvim", config = function() vim.cmd.colorscheme "tokyonight" end },
+    -- { "folke/tokyonight.nvim", config = function() vim.cmd.colorscheme "tokyonight" end },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
@@ -34,3 +34,5 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+
+vim.opt.clipboard = "unnamedplus"
