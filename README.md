@@ -5,3 +5,4 @@ Plugins in use:
 - line-numbers
 - treesitter
 - cyberdream
+- blink-cmp
