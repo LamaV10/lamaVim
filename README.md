@@ -11,6 +11,7 @@ Plugins in use:
 - blink-cmp
 - telescope
 - autoclose
+- nvim-tree
 
 ### Themes
 - tokyonight
