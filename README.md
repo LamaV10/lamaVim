@@ -7,3 +7,4 @@ Plugins in use:
 - cyberdream
 - blink-cmp
 - telescope
+- autoclose
