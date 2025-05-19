@@ -1,5 +1,5 @@
 --- Set the Leader key 
-vim.g.mapleader = ","
+vim.g.mapleader = " "
 
 --- indenting width
 vim.opt.shiftwidth = 4
