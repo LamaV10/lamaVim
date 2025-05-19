@@ -4,7 +4,7 @@ Plugins in use:
 - mini.nvim
 - line-numbers
 - treesitter
-- cyberdream
+- tokyonight
 - blink-cmp
 - telescope
 - autoclose

@@ -12,6 +12,3 @@ vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true 
 
 --- packagemanager lazy 
 require("config.lazy")
-
---- colorscheme
-vim.cmd("colorscheme cyberdream")
