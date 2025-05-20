@@ -1,5 +1,15 @@
 # Neovim Config 
-Plugins in use:
+
+## Install 
+```
+# copys old nvim config into your homedirectory
+mv ~/.config/nvim/ ~/
+# makes nvim directory
+mkdir ~/.config/nvim
+# clones the repo
+git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
+```
+## Plugins 
 
 ### Packagemanager
 - lazy
@@ -16,13 +26,3 @@ Plugins in use:
 ### Themes
 - tokyonight
 - gruvbox
-
-# Install 
-```
-# copys old nvim config into your homedirectory
-mv ~/.config/nvim/ ~/
-# makes nvim directory
-mkdir ~/.config/nvim
-# clones the repo
-git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
-```
