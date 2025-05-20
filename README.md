@@ -11,18 +11,12 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 ```
 ## Plugins 
 
-### Packagemanager
-- lazy
-
-### Coding 
-- mini.nvim
-- line-numbers
-- treesitter
-- blink-cmp
-- telescope
-- autoclose
-- nvim-tree
-
-### Themes
-- tokyonight
-- gruvbox
+| Packagemanager | Coding       | Themes     |
+| -------------- | ------------ | ---------- |
+| Lazy           | mini.nvim    | tokyonight |
+|                | line-numbers | gruvbox    |
+|                | treesitter   |            |
+|                | blink-cmp    |            |
+|                | telescope    |            |
+|                | autoclose    |            |
+|                | nvim-tree    |            |
