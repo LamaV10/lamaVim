@@ -1,6 +1,7 @@
 # Neovim Config 
-![screenshot-1](https://github.com/LamaV10/lamaVim/blob/main/Pictures/screenshot-1.png)
-![screenshot-2](https://github.com/LamaV10/lamaVim/blob/main/Pictures/screenshot-2.png)
+![theme-comparison](https://github.com/LamaV10/lamaVim/blob/main/Pictures/theme-comparison.png)
+![telescope](https://github.com/LamaV10/lamaVim/blob/main/Pictures/telescope.png)
+
 
 ## Install 
 ```
