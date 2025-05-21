@@ -1,5 +1,6 @@
 # Neovim Config 
 ![theme-comparison](https://github.com/LamaV10/lamaVim/blob/main/Pictures/theme-comparison.png)
+![ccp.png](https://github.com/LamaV10/lamaVim/blob/main/Pictures/ccp.png)
 ![telescope](https://github.com/LamaV10/lamaVim/blob/main/Pictures/telescope.png)
 
 
