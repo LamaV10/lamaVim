@@ -1,4 +1,4 @@
-if [ -d "$~/.config/nvim" ]; then
+if [ -d ~/.config/nvim ]; then
     mkdir ~/Nvim-Backup
     echo "Move old conifg into ~/.config/nvim/Backup"
     mv ~/.config/nvim ~/Nvim-Backup
