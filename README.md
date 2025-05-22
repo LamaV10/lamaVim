@@ -7,7 +7,7 @@
 ## Install 
 Either install it via the install.sh script:
 ```
-wget https://raw.githubusercontent.com/LamaV10/lamaVim/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/LamaV10/lamaVim/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh && rm install.sh
 ```
 Or you can just do it manually like shown in the example!
 ```
