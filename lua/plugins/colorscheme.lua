@@ -1,12 +1,12 @@
 return {
-  "folke/tokyonight.nvim",
-  lazy = false,
+  "ellisonleao/gruvbox.nvim",
   priority = 1000,
+  lazy = false,
   opts = {
-    style = "night", -- or "storm", "moon"
+    contrast = "hard",
   },
   config = function(_, opts)
-    require("tokyonight").setup(opts)
-    vim.cmd.colorscheme("tokyonight")
-    end,
+    require("gruvbox").setup(opts)
+    vim.cmd.colorscheme("gruvbox")
+  end,
 }

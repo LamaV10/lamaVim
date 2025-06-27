@@ -15,7 +15,8 @@ vim.keymap.set('n', '<C-n>', ':NvimTreeToggle .<CR>', { noremap = true, silent =
 vim.keymap.set('n', '<C-m>', ':NvimTreeToggle ~/<CR>', { noremap = true, silent = true })
 
 --- toggleterm keybinds
-vim.keymap.set('n', '<Leader>t', ':ToggleTerm', { noremap = true, silent = true })
+vim.keymap.set('n', '<Leader>t', ':ToggleTerm <CR>', { noremap = true, silent = true })
+vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal mode
 
 --- packagemanager lazy 
 require("config.lazy")
