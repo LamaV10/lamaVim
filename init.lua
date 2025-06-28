@@ -18,6 +18,22 @@ vim.keymap.set('n', '<C-m>', ':NvimTreeToggle ~/<CR>', { noremap = true, silent 
 vim.keymap.set('n', '<Leader>t', ':ToggleTerm <CR>', { noremap = true, silent = true })
 vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal mode
 
+--- lsp show err msg
+vim.diagnostic.config({
+  virtual_text = true,
+  signs = true,
+  update_in_insert = false,
+  underline = true,
+  severity_sort = true,
+  float = {
+    border = "rounded",
+    source = "always",
+    header = "",
+    prefix = "",
+  },
+})
+
+
 --- packagemanager lazy 
 require("config.lazy")
 require("toggleterm").setup{}
