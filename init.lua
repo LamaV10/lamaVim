@@ -18,6 +18,10 @@ vim.keymap.set('n', '<C-m>', ':NvimTreeToggle ~/<CR>', { noremap = true, silent 
 vim.keymap.set('n', '<Leader>t', ':ToggleTerm <CR>', { noremap = true, silent = true })
 vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal mode
 
+--- bufferline keybinds
+vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext <CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<S-Tab>', ':BufferLineCyclePrev <CR>', { noremap = true, silent = true })
+
 --- lsp show err msg
 vim.diagnostic.config({
   virtual_text = true,
@@ -37,3 +41,7 @@ vim.diagnostic.config({
 --- packagemanager lazy 
 require("config.lazy")
 require("toggleterm").setup{}
+
+--- bufferline setup
+vim.opt.termguicolors = true
+require("bufferline").setup{}
