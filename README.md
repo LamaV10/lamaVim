@@ -29,3 +29,6 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 |                | telescope    |            |
 |                | autoclose    |            |
 |                | nvim-tree    |            |
+|                | toggleterm   |            |
+|                | nvim-lsp     |            |
+|                | bufferline   |            |
