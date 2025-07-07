@@ -32,3 +32,4 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 |                | toggleterm   |            |
 |                | nvim-lsp     |            |
 |                | bufferline   |            |
+|                | which-key    |            |
