@@ -13,6 +13,7 @@ vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true 
 --- nvim-tree keybinds
 vim.keymap.set('n', '<C-n>', ':NvimTreeToggle .<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<C-m>', ':NvimTreeToggle ~/<CR>', { noremap = true, silent = true })
+vim.keymap.del('n', '<CR>') --- otherwise it will open with enter for some reason
 
 --- toggleterm keybinds
 vim.keymap.set('n', '<Leader>t', ':ToggleTerm <CR>', { noremap = true, silent = true })
