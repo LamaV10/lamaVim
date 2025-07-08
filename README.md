@@ -20,16 +20,16 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 ```
 ## Plugins 
 
-| Packagemanager | Coding       | Themes     |
-| -------------- | ------------ | ---------- |
-| Lazy           | mini.nvim    | tokyonight |
-|                | line-numbers | gruvbox    |
-|                | treesitter   |            |
-|                | blink-cmp    |            |
-|                | telescope    |            |
-|                | autoclose    |            |
-|                | nvim-tree    |            |
-|                | toggleterm   |            |
-|                | nvim-lsp     |            |
-|                | bufferline   |            |
-|                | which-key    |            |
+| Packagemanager | Coding       | Themes     |    LSPs     |
+| -------------- | ------------ | ---------- | ----------- |
+| Lazy           | mini.nvim    | tokyonight |  ccls       |
+|                | line-numbers | gruvbox    |  jdtls      |
+|                | treesitter   |            |  pylsp      |
+|                | blink-cmp    |            |             |
+|                | telescope    |            |             |
+|                | autoclose    |            |             |
+|                | nvim-tree    |            |             |
+|                | toggleterm   |            |             |
+|                | nvim-lsp     |            |             |
+|                | bufferline   |            |             |
+|                | which-key    |            |             |
