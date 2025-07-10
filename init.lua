@@ -15,6 +15,7 @@ vim.keymap.set('n', '<C-n>', ':NvimTreeToggle .<CR>', { noremap = true, silent =
 vim.keymap.set('n', '<C-m>', ':NvimTreeToggle ~/<CR>', { noremap = true, silent = true })
 vim.keymap.del('n', '<CR>') --- otherwise it will open with enter for some reason
 
+
 --- toggleterm keybinds
 vim.keymap.set('n', '<Leader>t', ':ToggleTerm <CR>', { noremap = true, silent = true })
 vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal mode
