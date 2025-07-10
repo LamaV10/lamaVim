@@ -33,3 +33,20 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 |                | nvim-lsp     |            |             |
 |                | bufferline   |            |             |
 |                | which-key    |            |             |
+
+
+## Help
+### Pylsp 
+Install pylsp into a virutal envoirment...
+```
+python -m venv ~/.venv/nvim
+source ~/.venv/nvim/bin/activate
+pip install 'python-lsp-server[all]'
+
+```
+then you can modify the path in ~/.config/nvim/lua/plugins/lsp.lua:
+```
+vim.lsp.config('pylsp', {
+   cmd = { "/home/USERNAME/.venv/nvim/bin/pylsp" },
+})
+```
