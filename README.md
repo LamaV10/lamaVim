@@ -42,7 +42,6 @@ Install pylsp into a virutal envoirment...
 python -m venv ~/.venv/nvim
 source ~/.venv/nvim/bin/activate
 pip install 'python-lsp-server[all]'
-
 ```
 then you can modify the path in ~/.config/nvim/lua/plugins/lsp.lua:
 ```
