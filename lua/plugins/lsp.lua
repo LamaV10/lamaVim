@@ -7,8 +7,17 @@ return {
 	   vim.lsp.enable('pylsp')
 	   vim.lsp.config('pylsp', {
 	       cmd = { "/home/marcel/.venv/nvim/bin/pylsp" },
+	       settings = {
+		   pylsp = {
+		       plugins = {
+			   pycodestyle = {
+			       ignore = {'W391', 'E305', 'E302', 'E266', 'E303'},
+			       maxLineLength = 100
+			   }
+		       }
+		   }
+	       }
 	   })
-
 	end,
     }
 }
