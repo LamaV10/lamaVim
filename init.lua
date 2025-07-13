@@ -23,7 +23,7 @@ vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal 
 --- bufferline keybinds
 vim.keymap.set('n', '<C-k>', ':BufferLineCycleNext <CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<C-j>', ':BufferLineCyclePrev <CR>', { noremap = true, silent = true })
-vim.keymap.set('n', '<C-x>', ':BufferLinePickClose <CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<Leader>x', ':BufferLinePickClose <CR>', { noremap = true, silent = true })
 
 --- lsp show err msg
 vim.diagnostic.config({
