@@ -22,8 +22,8 @@ vim.keymap.set('n', '<Leader>t', ':ToggleTerm <CR>', { noremap = true, silent = 
 vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal mode
 
 --- bufferline keybinds
-vim.keymap.set('n', '<C-k>', ':BufferLineCycleNext <CR>', { noremap = true, silent = true })
-vim.keymap.set('n', '<C-j>', ':BufferLineCyclePrev <CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<tab>', ':BufferLineCycleNext <CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<s-tab>', ':BufferLineCyclePrev <CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<Leader>x', ':BufferLinePickClose <CR>', { noremap = true, silent = true })
 
 --- lsp show err msg
