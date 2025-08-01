@@ -1,6 +1,5 @@
 --- Set the Leader key 
 vim.g.mapleader = " "
-vim.opt.virtualedit="all"
 
 --- indenting width
 vim.opt.shiftwidth = 4
