@@ -4,8 +4,9 @@ return {
 	config = function ()
 	    vim.lsp.enable('ccls') 
 	    vim.lsp.enable('jdtls')
-	    vim.lsp.enable('pylsp')
 	    vim.lsp.enable('rust_analyzer')
+	    vim.lsp.enable('htmx')
+	    vim.lsp.enable('pylsp')
 	    vim.lsp.config('pylsp', {
 	       cmd = { "/home/marcel/.venv/nvim/bin/pylsp" },
 	       settings = {
