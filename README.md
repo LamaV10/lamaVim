@@ -26,7 +26,7 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 |                | line-numbers | gruvbox    |  jdtls      |
 |                | treesitter   |            |  pylsp      |
 |                | blink-cmp    |            |  rust       |
-|                | telescope    |            |             |
+|                | telescope    |            |  htmx       |
 |                | autoclose    |            |             |
 |                | nvim-tree    |            |             |
 |                | toggleterm   |            |             |
