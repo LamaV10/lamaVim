@@ -49,3 +49,9 @@ require("toggleterm").setup{}
 --- bufferline setup
 vim.opt.termguicolors = true
 require("bufferline").setup{}
+
+ -- Themery config
+require("themery").setup({
+  themes = {"gruvbox", "tokyonight", "moonfly"}, -- Your list of installed colorschemes.
+  livePreview = true, -- Apply theme while picking. Default to true.
+})
