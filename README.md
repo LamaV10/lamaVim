@@ -24,8 +24,8 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 | -------------- | ------------ | ---------- | ----------- |
 | Lazy           | mini.nvim    | tokyonight |  ccls       |
 |                | line-numbers | gruvbox    |  jdtls      |
-|                | treesitter   |            |  pylsp      |
-|                | blink-cmp    |            |  rust       |
+|                | treesitter   | moonfly    |  pylsp      |
+|                | blink-cmp    | Themery    |  rust       |
 |                | telescope    |            |  htmx       |
 |                | autoclose    |            |             |
 |                | nvim-tree    |            |             |
