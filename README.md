@@ -30,7 +30,7 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 | which-key    |            |             |
 | startup      |            |             |
 
-Plugins are install and managed via [Lazy](https://github.com/folke/lazy.nvim)
+Plugins are install and managed via [Lazy](https://github.com/folke/lazy.nvim).
 
 ## Help
 ### Pylsp 
