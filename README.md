@@ -1,9 +1,4 @@
 # Neovim Config 
-![theme-comparison](https://github.com/LamaV10/lamaVim/blob/main/Pictures/theme-comparison.png)
-![ccp.png](https://github.com/LamaV10/lamaVim/blob/main/Pictures/ccp.png)
-![telescope](https://github.com/LamaV10/lamaVim/blob/main/Pictures/telescope.png)
-
-
 ## Install 
 Either install it via the install.sh script:
 ```
@@ -20,21 +15,22 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 ```
 ## Plugins 
 
-| Packagemanager | Coding       | Themes     |    LSPs     |
-| -------------- | ------------ | ---------- | ----------- |
-| Lazy           | mini.nvim    | tokyonight |  ccls       |
-|                | line-numbers | gruvbox    |  jdtls      |
-|                | treesitter   | moonfly    |  pylsp      |
-|                | blink-cmp    | Themery    |  rust       |
-|                | telescope    |            |  htmx       |
-|                | autoclose    |            |             |
-|                | nvim-tree    |            |             |
-|                | toggleterm   |            |             |
-|                | nvim-lsp     |            |             |
-|                | bufferline   |            |             |
-|                | which-key    |            |             |
-|                | startup      |            |             |
+| Coding       | Themes     |    LSPs     |
+| ------------ | ---------- | ----------- |
+| mini.nvim    | tokyonight |  ccls       |
+| line-numbers | gruvbox    |  jdtls      |
+| treesitter   | moonfly    |  pylsp      |
+| blink-cmp    | Themery    |  rust       |
+| telescope    |            |  htmx       |
+| autoclose    |            |             |
+| nvim-tree    |            |             |
+| toggleterm   |            |             |
+| nvim-lsp     |            |             |
+| bufferline   |            |             |
+| which-key    |            |             |
+| startup      |            |             |
 
+Plugins are install and managed via [Lazy](https://github.com/folke/lazy.nvim)
 
 ## Help
 ### Pylsp 
@@ -50,3 +46,8 @@ vim.lsp.config('pylsp', {
    cmd = { "/home/USERNAME/.venv/nvim/bin/pylsp" },
 })
 ```
+
+## Pictures
+![theme-comparison](https://github.com/LamaV10/lamaVim/blob/main/Pictures/theme-comparison.png)
+![ccp.png](https://github.com/LamaV10/lamaVim/blob/main/Pictures/ccp.png)
+![telescope](https://github.com/LamaV10/lamaVim/blob/main/Pictures/telescope.png)
