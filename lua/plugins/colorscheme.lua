@@ -4,7 +4,6 @@ return {
     "ellisonleao/gruvbox.nvim",
     lazy = true,
     config = function()
-      require("gruvbox").setup({})
     end,
   },
 
@@ -12,7 +11,7 @@ return {
   {
     "folke/tokyonight.nvim",
     lazy = true,
-    opts = { style = "moon" },
+    opts = { style = "night" },
   },
   { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
 }

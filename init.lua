@@ -16,7 +16,6 @@ vim.keymap.set('n', '<C-n>', ':NvimTreeToggle .<CR>', { noremap = true, silent =
 vim.keymap.set('n', '<C-m>', ':NvimTreeToggle ~/<CR>', { noremap = true, silent = true })
 vim.keymap.del('n', '<CR>') --- otherwise it will open with enter for some reason
 
-
 --- toggleterm keybinds
 vim.keymap.set('n', '<Leader>t', ':ToggleTerm <CR>', { noremap = true, silent = true })
 vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal mode
@@ -25,6 +24,9 @@ vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]]) --- Use escape to change to normal 
 vim.keymap.set('n', '<tab>', ':BufferLineCycleNext <CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<s-tab>', ':BufferLineCyclePrev <CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<Leader>x', ':BufferLinePickClose <CR>', { noremap = true, silent = true })
+
+--- transparent toggle
+vim.keymap.set('n', '<Leader>a', ':TransparentToggle<CR>', { noremap = true, silent = true })
 
 --- lsp show err msg
 vim.diagnostic.config({
