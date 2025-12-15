@@ -15,20 +15,20 @@ git clone https://github.com/LamaV10/lamaVim ~/.config/nvim
 ```
 ## Plugins 
 
-| Coding       | Themes     |    LSPs     |
-| ------------ | ---------- | ----------- |
-| mini.nvim    | tokyonight |  ccls       |
-| line-numbers | gruvbox    |  jdtls      |
-| treesitter   | moonfly    |  pylsp      |
-| blink-cmp    | Themery    |  rust       |
-| telescope    |            |  htmx       |
-| autoclose    |            |             |
-| nvim-tree    |            |             |
-| toggleterm   |            |             |
-| nvim-lsp     |            |             |
-| bufferline   |            |             |
-| which-key    |            |             |
-| startup      |            |             |
+| Coding       | Themes      |    LSPs     |
+| ------------ | ----------- | ----------- |
+| mini.nvim    | tokyonight  |  ccls       |
+| line-numbers | gruvbox     |  jdtls      |
+| treesitter   | moonfly     |  pylsp      |
+| blink-cmp    | Themery     |  rust       |
+| telescope    | Transparent |  htmx       |
+| autoclose    |             |             |
+| nvim-tree    |             |             |
+| toggleterm   |             |             |
+| nvim-lsp     |             |             |
+| bufferline   |             |             |
+| which-key    |             |             |
+| startup      |             |             |
 
 Plugins are install and managed via [Lazy](https://github.com/folke/lazy.nvim).
 
