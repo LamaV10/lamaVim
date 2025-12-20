@@ -1,7 +1,11 @@
 return {
     "neovim/nvim-lspconfig",
     config = function ()
-	vim.lsp.enable('ccls') 
+	vim.lsp.config('clangd', {
+	  cmd = { 'clangd' },
+	  filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'ino' },
+	})
+	vim.lsp.enable('clangd')
 	vim.lsp.enable('jdtls')
 	vim.lsp.enable('rust_analyzer')
 	vim.lsp.enable('htmx')
